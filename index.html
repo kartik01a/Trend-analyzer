@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <section class="first">
+            <!-- {/* header */} -->
+            <nav class=" navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <a class="navbar-brand navvv" href="#">Trend Analyser</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#strat">Strategy</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#method">Method</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="vision.html">Our Plans</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+
+            <!-- slider -->
+            <div id="carouselExampleAutoplaying" class="carousel slide sliderr" data-bs-ride="carousel">
+                <div class="carousel-inner check">
+                  <div class="carousel-item active">
+                    <img src="images/i1.jpeg" class="d-block w-100 check" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/i2.jpeg" class="d-block w-100 check" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/i3.jpeg" class="d-block w-100 check" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+      
+              <!-- {/* method*/} -->
+              
+              
+            </section>
+            <section id="method" class="method-class">
+              <div class="inner-method">
+                  <h1 class="heading-inner">Step 1 : Choose pair for analysis</h1>
+                 
+                <div class="tradingview-widget-container" style="height:32%;width:80%;margin: auto;">
+                    <div id="tradingview_bbab9" style="height:calc(100% - 64px);width:100%"></div>
+                    <!-- <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/chart/1ubosaXS/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div> -->
+                    <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+                    <script type="text/javascript">
+                    new TradingView.widget(
+                    {
+                    "autosize": true,
+                    "symbol": "BITSTAMP:BTCUSD",
+                    "interval": "D",
+                    "timezone": "Asia/Kolkata",
+                    "theme": "light",
+                    "style": "1",
+                    "locale": "in",
+                    "enable_publishing": false,
+                    "allow_symbol_change": true,
+                    "hide_volume": true,
+                    "container_id": "tradingview_bbab9"
+                  }
+                    );
+                    </script>
+                  </div>
+
+                  <h1 id="strat" class="heading-inner">Step 2 : Apply all strategy individually</h1>
+                  <div class="inner-submethod">
+                    <div class="l1">
+                        <h3>Grid Strategy</h3>
+                        <p>A grid trading strategy can be useful in markets with ranging or sideways conditions. This is because the strategy takes advantage of price oscillations within a defined range.
+                            In a ranging market, where the price moves within certain upper and lower boundaries without establishing a clear trend, a grid strategy can be effective. The strategy sets buy and sell orders at regular intervals, creating a grid of orders within the range. As the price moves up and down, the strategy aims to profit from the price fluctuating within the grid lines.</p>
+                    </div>
+                    <div class="l1">
+                        <h3>DCA Strategy</h3>
+                        <p>A DCA strategy is particularly useful in volatile and uncertain market conditions. It is designed to mitigate the risk of investing a lump sum in a single trade
+                            In highly volatile markets with frequent price fluctuations, it can be challenging to time the market effectively. DCA allows you to spread out your investments over time, reducing the risk of investing a significant amount at a single unfavorable price.
+                            DCA is often employed for long-term investment strategies, where the focus is on accumulating wealth over an extended period. 
+                        </p>
+                    </div>
+                  </div>
+                  <div class="inner-submethod">
+                    <div class="l1">
+                        <h3>RSI Strategy</h3>
+                        <p>RSI (Relative Strength Index) strategies can be useful in various market conditions, especially in trending markets.In trending markets, RSI strategies can help traders identify and ride the momentum. When a market is in a strong uptrend, RSI can stay in overbought territory for an extended period, indicating sustained buying pressure
+                            In a downtrend, RSI can remain oversold for an extended period, indicating sustained selling pressure. 
+                        </p>
+                    </div>
+                    <div class="l1">
+                        <h3>Momentum Strategy</h3>
+                        <p>avatar
+                            A momentum strategy is generally useful in trending market conditions. It aims to capture the continuation of a trend by entering trades when there is significant momentum in the price movement. This strategy can be effective in both bullish and bearish trending markets as it takes advantage of the momentum present in either direction. It may not perform as well in ranging or sideways markets where price movement lacks a clear trend.</p>
+                    </div>
+                  </div>
+                  <div class="inner-submethod">
+                    <div class="l1">
+                        <h3>Trailing Stop Snippet</h3>
+                        <p>When a market is experiencing a clear and sustained upward or downward trend, a trailing stop strategy allows traders to maximize their profits by continuously adjusting the stop-loss order to lock in gains as the price moves in their favor.
+                            In volatile markets, a trailing stop can help protect profits during price retracements while still allowing for potential further upside. It provides flexibility by automatically adjusting the stop level based on a specified distance from the highest profit achieved.
+                        </p>
+                    </div>
+                    
+                  </div>
+
+                  <h1 class="heading-inner">Step 3 : Pick the strategy with best statestics.</h1>
+                  <a class="apply" href="result.html" onclick="window.open('https://www.tradingview.com/chart/1ubosaXS/')
+                  " target="_blank" href="">Apply strategy</a>
+                  
+              </div>
+            </section>
+        
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+</html>

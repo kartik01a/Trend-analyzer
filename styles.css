@@ -1,0 +1,93 @@
+*{
+    color: #fd6634;
+    font-family: 'Roboto', sans-serif;
+  }
+  .first{
+    background-color: #222;
+  }
+  .sliderr{
+    width: 70%;
+    margin: auto;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  .navbar{
+      border-bottom: 2px solid #fd6634;
+  }
+  .navvv{
+      color: #fd6634 ;
+      margin: 1rem;
+  }
+  .navbar-nav .nav-link.active{
+    color: #fd6634 ;
+    margin: 1rem;
+    font-size: 1.2rem;
+}
+.navbar-nav .nav-link{
+      font-size: 1.2rem;
+    color: #fd6634 ;
+    margin: 1rem;
+  }
+  .navbar-nav{
+    margin: auto;
+  }
+  .check{
+    border-radius: 1rem;
+  }
+  .method-class{
+    background-color: white;
+  }
+  .inner-method{
+    margin: 4rem;
+    background-color: black;
+    border-radius: 1rem;
+    padding: 4rem;
+    height: 250vh;
+  }
+  .heading-inner{
+    margin-bottom: 3rem;
+  }
+  .heading-inner1{
+    margin-bottom: 4rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .inner-submethod{
+    display: flex;
+    justify-content: center;
+}
+
+  .l1{
+    width: 50%;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: aliceblue;
+    border-radius: 1rem;
+  }
+  .apply{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: .8rem;
+    text-align: center;
+    background-color: #fd6634;
+    color: white;
+    border-radius: .5rem;
+  }
+  .result{
+    color: #fd6634;
+    margin: 3rem;
+    background-color: #222;
+    border-radius: 1rem;
+    padding: 3rem;
+  }
+  .image1{
+    width: 65%;
+    display: flex;
+    margin: auto;
+  }
+  .list{
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+  }
